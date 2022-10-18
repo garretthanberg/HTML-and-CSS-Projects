@@ -1,0 +1,17 @@
+ol {
+list-style-type: upper-roman;
+color: black;
+font-weight: bold;
+text-align: center;
+font-size: large;
+text-shadow: 2px 2px yellow;
+}
+
+ul {
+list-style-type: square;
+color: black;
+font-weight: bold;
+text-align: center;
+font-size: large;
+text-shadow: 2px 2px yellow;
+}

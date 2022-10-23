@@ -67,7 +67,7 @@ h1 {
     HOVER, TRANSLATE, & TRANSFORM EFFECTS
 ---------------------------------------------*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../Images/Icons/icon_2.png");
+    background-image: url("../Images/Icons/alien_icon.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -97,7 +97,7 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("../Images/Icons/icon_2.png");
+        background-image: url("../Images/Icons/alien_icon.png");
     }
     50% {
         transform: translateY(330px);

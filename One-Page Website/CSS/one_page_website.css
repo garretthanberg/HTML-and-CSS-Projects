@@ -1,0 +1,25 @@
+html {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60%;
+}
+
+.reservations {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 1)
+}
+
+.reservations input[type="text"] {
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid gray;
+    border-bottom: 2px solid rgb(81, 81, 81);
+    border-right: 2px solid rgb(81, 81, 81);
+    border-left: 1px solid gray;
+    margin: 10px 1em;
+    border-radius: 7px;
+    width: 80%;
+}

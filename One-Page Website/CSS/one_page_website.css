@@ -2,6 +2,7 @@ html {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 110%;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -9,7 +10,7 @@ ul {
 }
 
 .row > .column {
-    padding: 1 8px;
+    padding: 0 8px;
 }
 
 .row::after {
@@ -21,7 +22,7 @@ ul {
 /* THIS WILL CREATE 4 EQUAL COLUMNS THAT FLOAT NEXT TO EACHOTHER */
 .column {
     float: left;
-    width: 25%;
+    width: 24%;
 }
 
 /* THE MODAL (BACKGROUND) */
@@ -100,6 +101,10 @@ cursor: pointer;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.prev {
+    left: 0;
+}
+
 /* NUMBER TEXT */
 .numbertext {
     color: #f2f2f2;
@@ -155,4 +160,8 @@ img.hover-shadow {
     margin: 10px 1em;
     border-radius: 7px;
     width: 80%;
+}
+
+img {
+    width: 100%;
 }
